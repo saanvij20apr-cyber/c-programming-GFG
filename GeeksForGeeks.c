@@ -1,4 +1,32 @@
-    
+// x-------------------------------------------------------x
+
+// Q22: Write a program to print the first letter of each word.
+
+// #include<stdio.h>
+// #include<string.h>
+
+// void printFirstLetter(char str[]);
+
+// int main() {
+//     char str[] = "You cannot reason with a tiger when your head is in its mouth.";
+//     printFirstLetter(str);
+//     return 0;
+// }
+
+// void printFirstLetter(char str[]) {
+//     int first = 1;
+
+//     for(int i = 0; str[i] != '\0'; i++) {
+//         if(str[i] != ' ' && first) {
+//             printf("%c ", str[i]);
+//             first = 0;
+//         }
+//         if(str[i] == ' ') {
+//             first = 1;
+//         }
+//     }
+// }
+
 // x-------------------------------------------------------x
 
 // Q16: Write a Program to remove duplicates from the Sorted array. (Later)
