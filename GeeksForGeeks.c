@@ -312,14 +312,17 @@
 
 // x-------------------------------------------------------x
 
-// Q3: Write a Program to find the size of int, float, double, and char. (Later - sizeof)
+// Q3: Write a Program to find the size of int, float, double, and char. 
 
 // #include<stdio.h>
 
 // int main() {
-
-//     return 0;
+//     printf("Size of int: %d bytes\n", sizeof(int));
+//     printf("Size of int: %d bytes\n", sizeof(float));
+//     printf("Size of int: %d bytes\n", sizeof(double));
+//     printf("Size of int: %d bytes\n", sizeof(char));
 // }
+
 // x-------------------------------------------------------x
 
 // Q2: Write a Program to find the Sum of two numbers entered by the user.
