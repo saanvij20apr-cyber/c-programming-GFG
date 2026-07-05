@@ -1,3 +1,36 @@
+// Q23: Write a program to reverse a string using recursion.
+
+// #include<stdio.h>
+// #include<string.h>
+
+// void reverseStr(char str[], int start, int end);
+// void printStr(char str[], int n);
+
+// int main() {
+//     char str[] = "GEEKS";
+//     int n = 5;
+
+//     reverseStr(str, 0, n - 1);
+//     printStr(str, n);
+//     return 0;
+// }
+
+// void reverseStr(char str[], int start, int end) {
+//     if(start >= end) {
+//         return;
+//     }
+//     char temp = str[start];
+//     str[start] = str[end];
+//     str[end] = temp;
+
+//     reverseStr(str, start + 1, end - 1);
+// }
+
+// void printStr(char str[], int n) {
+//     for(int i = 0; i < n; i++) {
+//         printf("%c\t", str[i]);
+//     }
+// }
 // x-------------------------------------------------------x
 
 // Q22: Write a program to print the first letter of each word.
@@ -318,9 +351,10 @@
 
 // int main() {
 //     printf("Size of int: %d bytes\n", sizeof(int));
-//     printf("Size of int: %d bytes\n", sizeof(float));
-//     printf("Size of int: %d bytes\n", sizeof(double));
-//     printf("Size of int: %d bytes\n", sizeof(char));
+//     printf("Size of float: %d bytes\n", sizeof(float));
+//     printf("Size of double: %d bytes\n", sizeof(double));
+//     printf("Size of char: %d bytes\n", sizeof(char));
+//     return 0; 
 // }
 
 // x-------------------------------------------------------x
